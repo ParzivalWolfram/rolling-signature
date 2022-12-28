@@ -1,10 +1,3 @@
-"""
-dumb shit rolling-key... thing?
-assumes passing in data as a filename and other miscellaneous crap as needed
-returns list of hashes or None if error, because this is just an example
-includes embedded test function, which sucks and requires manual verification
-"""
-
 from sys import argv
 from random import randint
 from os import remove as deleteFile
